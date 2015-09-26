@@ -1,0 +1,8 @@
+{
+    "baseDir": "/Users/wrightm/Projects/lean-agile-scotland/selfie-roulette",
+    "imagesDir": "/Users/wrightm/Projects/lean-agile-scotland/selfie-roulette/webapp/images",
+    "imageFileType": "jpg",
+    "webAppDir": "/Users/wrightm/Projects/lean-agile-scotland/selfie-roulette/webapp",
+    "repoDir": "/Users/wrightm/Projects/lean-agile-scotland/selfie-roulette/repo",
+    "serverAddress": "localhost:8080"
+}

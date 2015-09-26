@@ -1,0 +1,28 @@
+{
+    "name": "selfie-roulette",
+    "version": "0.0.0",
+    "main": "index.html",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ],
+    "dependencies": {
+        "angular": "1.4.5",
+        "angular-animate": "1.4.5",
+        "angular-bootstrap": "0.13.3",
+        "angular-cookies": "1.4.5",
+        "angular-local-storage": "0.2.2",
+        "angular-mocks": "1.4.5",
+        "angular-resource": "1.4.5",
+        "angular-timer": "1.3.3",
+        "angular-ui-router": "0.2.15",
+        "angular-ui-utils": "3.0.0",
+        "bootstrap": "3.3.5",
+        "font-awesome": "4.4.0",
+        "jquery": "2.1.4",
+        "less.js": "2.5.1",
+        "moment": "2.10.6",
+        "underscore": "1.8.3"
+    }
+}

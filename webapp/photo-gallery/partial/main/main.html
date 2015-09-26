@@ -1,0 +1,19 @@
+<div class="col-md-12" style="padding-top: 100px">
+    <div id="content" class="container">
+        <div class="row" ng-if="mainPhotoGallery.showPickWinnerButton">
+            <button type="button" class="btn btn-danger center-block photo-gallery-pick-button"
+                    ng-click="mainPhotoGallery.pickWinningPhoto()">Pick Photo!
+            </button>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="photo-gallery-photo-list">
+                    <li class="photo-gallery-photo" ng-repeat="photo in mainPhotoGallery.photos"
+                        ng-style="{top: ((photo.row * 240) + px), left: ((photo.column * 240) + px)}">
+                        <span><img class="photo-gallery-circular-photo" ng-src="{{photo.filename}}" alt=""/></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

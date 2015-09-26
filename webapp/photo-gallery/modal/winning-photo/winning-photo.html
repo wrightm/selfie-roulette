@@ -1,0 +1,22 @@
+<div>
+    <div class="modal-body">
+        <h1 class="modal-title text-center" style="color:#D9534F;font-weight:200;">Is this you?</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 center-block">
+                    <span><img class="winning-photo-circular-photo" ng-src="{{winningPhotoController.winningPhotoFile}}"
+                               alt="" style="position:relative;left:40px"/></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <button class="btn btn-danger center-block" ng-click="winningPhotoController.closeModal($close)"
+                            style="position:relative;left:40px;top:10px;"><i class="fa fa-play"></i>Restart The Roulette
+                    </button>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</div>

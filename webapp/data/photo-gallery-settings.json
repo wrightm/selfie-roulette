@@ -1,0 +1,5 @@
+{
+    "refreshPhotoTimeInterval": 60000,
+    "winnerTimeInterval": 20,
+    "serverAddress": "localhost:8080"
+}
