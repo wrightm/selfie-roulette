@@ -5,6 +5,7 @@ import (
     "net/http"
     "persistence"
     "responseErrors"
+    "github.com/gorilla/mux"
 )
 
 func GetPhoto(w http.ResponseWriter, r *http.Request) {

@@ -6,6 +6,7 @@ import (
     "routing"
     "fmt"
     "config"
+    "github.com/rs/cors"
 )
 
 
